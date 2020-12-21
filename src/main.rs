@@ -1,4 +1,3 @@
-```rust
 use std::fmt;
 
 fn main() {
@@ -31,4 +30,3 @@ impl fmt::Display for Person<'_> {
         )
     }
 }
-```
