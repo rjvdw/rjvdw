@@ -26,7 +26,7 @@ impl fmt::Display for Person<'_> {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(
             f,
-            "My name is {} and I am a {} from {}. To learn more, please visist [my homepage]({}).",
+            "My name is {} and I am a {} from {}. To learn more, please visit [my homepage]({}).",
             self.name, self.profession, self.from, self.home_page,
         )
     }
